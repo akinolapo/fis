@@ -44,6 +44,7 @@ const Slider = () => {
             />
           </div>
         </Carousel.Item>
+
       </Carousel>
     </section>
   )

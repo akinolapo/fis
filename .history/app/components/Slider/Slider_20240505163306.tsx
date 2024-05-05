@@ -44,6 +44,18 @@ const Slider = () => {
             />
           </div>
         </Carousel.Item>
+
+        <Carousel.Item className="sliderWrapper">
+          <div className="slideImg">
+            <Image
+              src="/images/hero.jpeg"
+              alt="promotion"
+              width={720}
+              height={480}
+              className="imageOverlay"
+            />
+          </div>
+        </Carousel.Item>
       </Carousel>
     </section>
   )

@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="hidden justify-between items-center py-4 text-white lg:flex">
+    <header className="flex justify-between items-center py-4 text-white">
       {/* Logo and Site Title */}
       <div className="flex items-center">
-        <Image src="/logo.png" alt="Logo" width={60} height={60} className="mr-2"  />
+        <Image src="/logo.png" alt="Logo" width={60} height={60} className="w-10 h-10 mr-2"  />
         <h1 className="text-lg font-bold">Federation of <br></br>Igbo Student<br></br> OAU</h1>
       </div>
 

@@ -12,7 +12,7 @@ const Slider = () => {
         <Carousel.Item className="sliderWrapper">
           <div className="slideImg">
             <Image
-              src="/images/hero1.jpg"
+              src="/images/hero.jpeg"
               alt="promotion"
               width={720}
               height={480}
@@ -24,7 +24,7 @@ const Slider = () => {
         <Carousel.Item className="sliderWrapper">
           <div className="slideImg">
             <Image
-              src="/images/hero2.jpg"
+              src="/images/hero2.jpeg"
               alt="promotion"
               width={720}
               height={480}
@@ -36,7 +36,7 @@ const Slider = () => {
         <Carousel.Item className="sliderWrapper">
           <div className="slideImg">
             <Image
-              src="/images/hero3.jpg"
+              src="/images/hero.jpeg"
               alt="promotion"
               width={720}
               height={480}
