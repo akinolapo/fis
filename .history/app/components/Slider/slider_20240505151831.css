@@ -1,0 +1,22 @@
+/* slider.css */
+
+.slider {
+    position: relative;
+    border-radius: 30px;
+  }
+  
+  .sliderWrapper {
+    background-color: #000;
+  }
+  
+  .slideImg {
+    position: relative;
+  }
+  
+  .imageOverlay {
+    width: 100%;
+    height: auto;
+    bo
+    /* min-height: 480px; */
+
+  }

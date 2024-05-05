@@ -1,0 +1,17 @@
+/* slider.css */
+
+.slider {
+    position: relative;
+  }
+  
+  
+  .slideImg {
+    position: relative;
+  }
+  
+  .imageOverlay {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+  }
