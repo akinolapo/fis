@@ -25,7 +25,8 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#ffffff" />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="icon" href="/favicon.ico" />        
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
         {/* Add any other meta tags you need */}
       </Head>
       <body className={inter.className}>

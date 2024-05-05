@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header/Header";
-import Head from "next/head";
 
 
 
@@ -20,14 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-       <Head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#ffffff" />
-        <link rel="manifest" href="/site.webmanifest" />
-        <link rel="icon" href="/favicon.ico" />        
-        {/* Add any other meta tags you need */}
-      </Head>
+      
       <body className={inter.className}>
         <Header/>
         {children}
