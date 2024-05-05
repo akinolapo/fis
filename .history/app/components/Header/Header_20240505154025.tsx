@@ -1,7 +1,7 @@
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center py-4 text-whitez">
+    <header className="flex justify-between items-center py-4 text-white large-he">
       {/* Logo and Site Title */}
       <div className="flex items-center">
         <img src="/logo.png" alt="Logo" className="w-10 h-10 mr-2" />

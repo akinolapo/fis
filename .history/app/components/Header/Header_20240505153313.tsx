@@ -1,7 +1,7 @@
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center py-4 text-whitez">
+    <header className="flex justify-between items-center py-4 text-white">
       {/* Logo and Site Title */}
       <div className="flex items-center">
         <img src="/logo.png" alt="Logo" className="w-10 h-10 mr-2" />
@@ -20,7 +20,7 @@ const Header = () => {
       </nav>
 
       {/* Join Us Button */}
-      <button className="rounded-full py-4 px-10 bg-zinc-950 hover:bg-black text-white">
+      <button className="rounded-full px-10 py-3 bg-zinc-950 hover:bg-black text-white">
         Join Us
       </button>
     </header>
