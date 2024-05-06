@@ -46,7 +46,7 @@ export const NavMobile = () => {
                     <a
                       onClick={() => setOpen((prev) => !prev)}
                       className={
-                        "flex items-center justify-between w-full p-3 rounded-xl bg-myLightColor text-white"
+                        "flex items-center justify-between w-full p-4 rounded-xl bg-myLightColor text-white"
                       }
                       href={route.href}
                     >
