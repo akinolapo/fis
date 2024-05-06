@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <Hero
         title="Welcome to the Federation of Igbo Students"
-        subtitle="Empowering Tomorrow's Leaders, Preserving Igbo Heritage"
+        subtitle="Discover the possibilities"
       />
       <About/>
       <Excos/>

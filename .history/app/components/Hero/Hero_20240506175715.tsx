@@ -1,4 +1,3 @@
-
 import Slider from "../Slider/Slider";
 
 interface HeroProps {
