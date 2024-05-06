@@ -29,8 +29,8 @@ export default function RootLayout({
         {/* Add any other meta tags you need */}
       </Head>
       <body className={inter.className}>
-        <main className="px-6 lg:px-20">
-        <Header/>
+        <main className="px-4 lg:px-20">
+        <Header/>4
         {children}
         </main>
         </body>

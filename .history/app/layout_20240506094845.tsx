@@ -29,7 +29,7 @@ export default function RootLayout({
         {/* Add any other meta tags you need */}
       </Head>
       <body className={inter.className}>
-        <main className="px-6 lg:px-20">
+        <main>
         <Header/>
         {children}
         </main>

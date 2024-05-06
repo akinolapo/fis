@@ -28,11 +28,9 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />        
         {/* Add any other meta tags you need */}
       </Head>
-      <body className={inter.className}>
-        <main className="px-6 lg:px-20">
+      <body>
         <Header/>
         {children}
-        </main>
         </body>
     </html>
   );
