@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   title: "Federation of Igbo Student OAU",
   description: "Federation of Igbo Student OAU",
   icons: {
-    icon: '/logo.png'
-  }
+    icon: '/icon.png', // /public path
+  },
 };
 
 export default function RootLayout({

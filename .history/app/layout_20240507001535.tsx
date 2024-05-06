@@ -13,9 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Federation of Igbo Student OAU",
   description: "Federation of Igbo Student OAU",
-  icons: {
-    icon: '/logo.png'
-  }
+  icons
 };
 
 export default function RootLayout({
