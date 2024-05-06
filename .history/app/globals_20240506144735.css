@@ -24,9 +24,9 @@ footer{
   background: #4A5AA1 !important;
 }
 
-a {
-  text-decoration: none !important;
-  color: #ffffff !important;
+footer a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 footer a:hover{

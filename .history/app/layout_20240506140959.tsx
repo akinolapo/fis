@@ -4,7 +4,6 @@ import "./globals.css";
 import Header from "./components/Header/Header";
 import Head from "next/head";
 import Footer from "./components/Footer/Footer";
-import { NavMobile } from "./components/Header/MobileNav/NavMobile";
 
 
 

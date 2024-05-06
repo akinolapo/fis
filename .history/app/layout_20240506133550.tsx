@@ -4,7 +4,6 @@ import "./globals.css";
 import Header from "./components/Header/Header";
 import Head from "next/head";
 import Footer from "./components/Footer/Footer";
-import { NavMobile } from "./components/Header/MobileNav/NavMobile";
 
 
 
@@ -33,7 +32,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <main className="px-6 lg:px-20">
         <Header/>
-        <NavMobile/>
+        <Mo
         {children}
         </main>
         <Footer/>
