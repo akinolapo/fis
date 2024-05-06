@@ -1,0 +1,26 @@
+/* members.css */
+
+.slick-slider {
+    position: relative; /* Ensure the slider container is positioned relatively */
+  }
+  
+  .slick-dots {
+    position: absolute; /* Position the dots container absolutely */
+    bottom: 10px; /* Adjust the vertical position as needed */
+    width: 100%; /* Ensure the dots span the full width of the slider */
+    text-align: center; /* Center align the dots */
+  }
+  
+  .slick-dots li {
+    display: inline-block; /* Display dots horizontally */
+  }
+  
+  .slick-dots li button:before {
+    color: white !important; /* Change bullet dot color to white */
+    font-size: 16px;
+  }
+  
+  .slick-slide {
+    margin-right: 20px; /* Adjust the gap size as needed */
+  }
+  

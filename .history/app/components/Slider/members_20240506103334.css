@@ -1,0 +1,8 @@
+.slick-dots li button:before {
+    color: white !important; /* Change bullet dot color to white */
+  }
+
+  .slick-dots li button {
+    font-size: 14px; /* Adjust the size as needed */
+  }
+  
