@@ -20,7 +20,7 @@ const Footer = () => {
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mr-2 text-white bg-myDarkColor p-2 rounded-full"
+                className="mr-2 text-white bg-primary p-2 rounded-full"
               >
                 <FaTwitter className="text-xl" />
               </a>
