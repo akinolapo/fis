@@ -56,10 +56,10 @@ const Footer = () => {
               <a href="/gallery">Gallery</a>
             </li>
             <li className="mr-4 mb-2">
-              <a href="executive">Excecutive</a>
+              <a href="#">Excecutive</a>
             </li>
             <li className="mb-2">
-              <a href="contact">Contact</a>
+              <a href="#">Contact</a>
             </li>
           </ul>
         </div>

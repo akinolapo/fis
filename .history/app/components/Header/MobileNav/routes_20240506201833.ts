@@ -17,7 +17,7 @@ export const routes = [
     },
     {
       title: "Contact Us",
-      href: "contact",
+      href: "#",
     },
     {
       title: "Join Us",

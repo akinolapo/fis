@@ -50,16 +50,16 @@ const Footer = () => {
               <a href="/">Home</a>
             </li>
             <li className="mr-4 mb-2">
-              <a href="/about">About</a>
+              <a href="/abouy">About</a>
             </li>
             <li className="mr-4 mb-2">
-              <a href="/gallery">Gallery</a>
+              <a href="#">Services</a>
             </li>
             <li className="mr-4 mb-2">
-              <a href="executive">Excecutive</a>
+              <a href="#">Gallery</a>
             </li>
             <li className="mb-2">
-              <a href="contact">Contact</a>
+              <a href="#">Contact</a>
             </li>
           </ul>
         </div>

@@ -9,15 +9,15 @@ export const routes = [
     },
     {
       title: "Gallery",
-      href: "gallery",
+      href: "#",
     },
     {
       title: "Executive",
-      href: "executive",
+      href: "#",
     },
     {
       title: "Contact Us",
-      href: "contact",
+      href: "#",
     },
     {
       title: "Join Us",

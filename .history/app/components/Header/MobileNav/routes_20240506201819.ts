@@ -5,19 +5,19 @@ export const routes = [
     },
     {
       title: "About Us",
-      href: "/about",
+      href: "#",
     },
     {
       title: "Gallery",
-      href: "gallery",
+      href: "#",
     },
     {
       title: "Executive",
-      href: "executive",
+      href: "#",
     },
     {
       title: "Contact Us",
-      href: "contact",
+      href: "#",
     },
     {
       title: "Join Us",
