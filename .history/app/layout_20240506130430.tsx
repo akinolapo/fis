@@ -33,8 +33,8 @@ export default function RootLayout({
         <main className="px-6 lg:px-20">
         <Header/>
         {children}
-        </main>
         <Footer/>
+        </main>
         </body>
     </html>
   );

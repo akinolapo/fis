@@ -25,9 +25,7 @@ footer a {
   color: #ffffff;
 }
 
-footer a:hover{
-  color: rgb(156 163 175);
-}
+footer a:ho
 
 @layer utilities {
   .text-balance {

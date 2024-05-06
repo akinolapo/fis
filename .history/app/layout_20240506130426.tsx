@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header/Header";
 import Head from "next/head";
-import Footer from "./components/Footer/Footer";
 
 
 
@@ -33,8 +32,8 @@ export default function RootLayout({
         <main className="px-6 lg:px-20">
         <Header/>
         {children}
+        <Fo
         </main>
-        <Footer/>
         </body>
     </html>
   );

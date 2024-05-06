@@ -7,10 +7,6 @@
   padding: 0;
 }
 
-.bg-primary{
-  background: #364B94;
-}
-
 body {
   background: #364B94 !important;
   color: #ffffff !important;
@@ -18,15 +14,6 @@ body {
 
 footer{
   background: #4A5AA1 !important;
-}
-
-footer a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-footer a:hover{
-  color: rgb(156 163 175);
 }
 
 @layer utilities {
