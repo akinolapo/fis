@@ -4,7 +4,7 @@ import Members from '../Slider/Members'
 const Excos = () => {
   return (
     <div>
-        <h3 className="font-bold text-xl mb-4">PRESENT EXECUTIVES<br></br> 2022/2023</h3>
+        <h3 className="font-bold text-xl">PRESENT EXECUTIVES<br></br> 2022/2023</h3>
         <Members/>
     </div>
   )
