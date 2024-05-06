@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;z
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.bg-myDarkColor{
+  background-color: #364B94;
+}
+
+.bg-myLightColor{
+  background-color: #4A5AA1;
+}
+
+body {
+  background: #364B94 !important;
+  color: #ffffff !important;
+}
+
+footer{
+  background: #4A5AA1 !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #ffffff !important;
+}
+
+footer a:hover{
+  color: rgb(156 163 175);
+}
+
+.contact-bg{
+  background-image: url('/images/contact.jpg');
+  padding: 0 !important;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

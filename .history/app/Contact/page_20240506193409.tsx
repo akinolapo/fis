@@ -11,9 +11,9 @@ const page = () => {
        >
       {/* Contact form */}
       <div className="container mx-auto py-16">
-        <div className="flex flex-col md:flex-row justify-end">
+        <div className="flex flex-col md:flex-row">
           {/* Contact form */}
-          <div className="px-4 md:w-1/2">
+          <div className="px-2md:w-1/2">
             <h2 className="text-2xl font-bold mb-4 bg-gray-900 w-fit p-2 rounded-sm">Drop Us a Line</h2>
             <form>
               <div className="mb-4">              

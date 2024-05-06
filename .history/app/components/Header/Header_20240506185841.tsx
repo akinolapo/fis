@@ -14,9 +14,9 @@ const Header = () => {
         <ul className="flex gap-1">
           <a href="/"><li className="cursor-pointer hover:text-gray-400 p-8">Home</li></a>
           <a href="/about"><li className="cursor-pointer hover:text-gray-400 p-8">About Us</li></a>
-          <a href="/gallery"><li className="cursor-pointer hover:text-gray-400 p-8">Gallery</li></a>
-          <a href="/executive"><li className="cursor-pointer hover:text-gray-400 p-8">Executive</li></a>
-          <a href="contact"><li className="cursor-pointer hover:text-gray-400 p-8">Contact Us</li></a>
+          <a href="/gallery"li className="cursor-pointer hover:text-gray-400 p-8">Gallery</li></a>
+          <li className="cursor-pointer hover:text-gray-400 p-8">Executive</li></a>
+          <li className="cursor-pointer hover:text-gray-400 p-8">Contact Us</li></a>
         </ul>
       </nav>
 
