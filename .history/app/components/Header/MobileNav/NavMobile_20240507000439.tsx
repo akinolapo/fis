@@ -16,7 +16,7 @@ export const NavMobile = () => {
 
   return (
     <div ref={ref} className="flex items-center justify-between py-2 lg:hidden">
-      <a href="/"><Image src="/logo.png" alt="Logo" width={60} height={60} className="mr-2"  /></a>
+      <a></a><Image src="/logo.png" alt="Logo" width={60} height={60} className="mr-2"  />
       <Hamburger toggled={isOpen} size={20} toggle={setOpen} />
       <AnimatePresence>
         {isOpen && (

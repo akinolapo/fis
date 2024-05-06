@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="hidden justify-between items-center py-4 text-white lg:flex">
       {/* Logo and Site Title */}
-      <a href="/" className="flex items-center">
+      <a className="flex items-center">
         <Image src="/logo.png" alt="Logo" width={60} height={60} className="mr-2"  />
         <h1 className="text-lg font-bold">Federation of <br></br>Igbo Student<br></br> OAU</h1>
       </a>
