@@ -59,7 +59,7 @@ const Footer = () => {
               <a href="/executive">Excecutive</a>
             </li>
             <li className="mb-2">
-              <a href="/contact">Contact</a>
+              <a href="contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -67,19 +67,19 @@ const Footer = () => {
         <div className="hidden md:block">
           <ul className="flex">
             <li className="mr-4">
-              <a href="/">Home</a>
+              <a href="#">Home</a>
             </li>
             <li className="mr-4">
-              <a href="/about">About</a>
+              <a href="#">About</a>
             </li>
             <li className="mr-4">
-              <a href="/gallery">Gallery</a>
+              <a href="#">Services</a>
             </li>
             <li className="mr-4">
-              <a href="/executive">Executive</a>
+              <a href="#">Gallery</a>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <a href="#">Contact</a>
             </li>
           </ul>
         </div>

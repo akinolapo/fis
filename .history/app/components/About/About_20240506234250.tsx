@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+
 const About = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center md:justify-start px-4 py-8 md:py-16">
@@ -15,18 +16,12 @@ const About = () => {
       <div className="md:w-2/3">
         <h2 className="text-2xl md:text-3xl font-bold mb-4">About Us</h2>
         <p className="leading-relaxed mb-4">
-          We, the Igbo students of Obafemi Awolowo University (OAU) in Ile-Ife,
-          Nigeria, united by our shared heritage and values, hereby establish
-          the Federation of Igbo Students (FIS) at OAU. Committed to fostering
-          brotherly love, unity, and peace among Igbo students, FIS is dedicated
-          to promoting and preserving Igbo cultural heritage, language, and
-          values as a hallmark of our ethnic identity.
+        We, the Igbo students of Obafemi Awolowo University (OAU) in Ile-Ife, Nigeria, united by our shared heritage and values, hereby establish the Federation of Igbo Students (FIS) at OAU. Committed to fostering brotherly love, unity, and peace among Igbo students, FIS is dedicated to promoting and preserving Igbo cultural heritage, language, and values as a hallmark of our ethnic identity.
         </p>
         <a href="/about">
-          <button className="bg-zinc-950 hover:bg-black text-white font-bold py-4 px-10 rounded-full focus:outline-none focus:shadow-outline">
-            Read More
-          </button>
-        </a>
+        <button className="bg-zinc-950 hover:bg-black text-white font-bold py-4 px-10 rounded-full focus:outline-none focus:shadow-outline">
+          Read More
+        </button>
       </div>
     </div>
   );

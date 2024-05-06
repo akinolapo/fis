@@ -110,11 +110,10 @@ const Gallery = () => {
           </div>
         )}
       </div>
-      <a href="/gallery">
-        <button className="bg-zinc-950 hover:bg-black text-white font-bold py-4 px-10 mt-4 rounded-full focus:outline-none focus:shadow-outline">
+      <a href=""
+      <button className="bg-zinc-950 hover:bg-black text-white font-bold py-4 px-10 mt-4 rounded-full focus:outline-none focus:shadow-outline">
           See More
         </button>
-      </a>
     </div>
   );
 };
