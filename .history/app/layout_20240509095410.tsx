@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Federation of Igbo Student OAU",
-  description: "Welcome to the Federation of Igbo Students: Empowering Tomorrow's Leaders, Preserving Igbo Heritage",
+  description: "Federation of Igbo Student OAU",
 };
 
 export default function RootLayout({
@@ -28,10 +28,10 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff" />
         <link rel="manifest" href="/site.webmanifest" /> 
         <link rel="icon" href="/favicon.ico" sizes="any" />  
-        <meta name="keywords" content="fisoau, Federation of Igbo Student OAU, Igbo OAU" /> 
-        <meta property="og:title" content="Federation of Igbo Student OAU" />
-        <meta property="og:description" content="Welcome to the Federation of Igbo Students: Empowering Tomorrow's Leaders, Preserving Igbo Heritage" />
-        <meta property="og:image" content="/logo.png" />
+        <meta name="keywords" content="fisoau, Federation of Igbo Student OAU, Igbo OAU /> 
+      
+        <meta property="og:description" content="Description Here" />
+        <meta property="og:image" content="image_url_here" />
         {/* Add any other meta tags you need */}
       </Head>
       <body className={inter.className}>
