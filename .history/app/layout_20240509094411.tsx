@@ -13,6 +13,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Federation of Igbo Student OAU",
   description: "Federation of Igbo Student OAU",
+  icons: {
+    icon: '/logo.png'
+  }
 };
 
 export default function RootLayout({
@@ -26,7 +29,8 @@ export default function RootLayout({
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#ffffff" />
-        <link rel="manifest" href="/site.webmanifest" /> 
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="icon" href="/favicon.ico" />   
         <link rel="icon" href="/favicon.ico" sizes="any" />   
         {/* Add any other meta tags you need */}
       </Head>
